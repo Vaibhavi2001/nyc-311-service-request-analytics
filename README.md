@@ -38,13 +38,15 @@ Location and request type strongly influenced resolution delays.
 ## Machine Learning Models
 ### Linear Regression Goal: 
 Predict the number of days required to close a request. 
+
 Results: 
 - MAE: ~0.35 days
 - RMSE: ~0.54 days
 - R²: ~0.11 
 ### Random Forest Classification 
 Goal: Predict whether a request will take longer than one day to resolve.
- Results:
+
+Results:
 - Accuracy: ~93%
 - ROC-AUC: ~0.70  
 ## Visualizations
