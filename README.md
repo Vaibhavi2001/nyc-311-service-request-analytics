@@ -30,7 +30,7 @@ Dataset Size:
 6. Random Forest classification modeling
 7. Model evaluation and interpretation 
 ## Dashboard Insights 
-### Key Findings -
+### Key Findings 
 Housing, policing, and transportation agencies handled the highest request volumes. 
 Service requests showed strong geographic clustering across boroughs.  
 Request volume varied significantly across days and seasons. 
@@ -56,7 +56,7 @@ This project demonstrates how predictive analytics and dashboard-driven insights
 - Improved operational planning 
 - Better service delivery 
 - Increased public trust 
-## Future Improvements -
+## Future Improvements 
 - Analyze the complete NYC 311 dataset using Apache Spark 
 - Incorporate weather and staffing data 
 - Improve class imbalance handling 
