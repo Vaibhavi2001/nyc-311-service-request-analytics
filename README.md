@@ -7,10 +7,20 @@ This project answers two key questions: 1. What factors influence NYC 311 reques
 2. Can machine learning models predict whether a request will experience a delayed response? 
 ## Dataset Source: 
 NYC Open Data – 311 Service Requests 
-Dataset Size: - Original dataset: ~24GB - Millions of records - 
-Sampled datasets used for analysis: - 20,000 records for dashboarding - 50,000 records for predictive modeling 
-## Tools and Technologies - 
-Python -Pandas - NumPy - Scikit-learn - Matplotlib - Seaborn - Power BI - Google Colab 
+Dataset Size: 
+- Original dataset: ~24GB
+- Millions of records 
+- Sampled datasets used for analysis: - 20,000
+- records for dashboarding: 50,000 records for predictive modeling 
+## Tools and Technologies 
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Power BI
+- Google Colab 
 ## Project Workflow 
 1. Big data preprocessing and chunk-based sampling
 2. Data cleaning and feature engineering
@@ -28,7 +38,10 @@ Location and request type strongly influenced resolution delays.
 ## Machine Learning Models
 ### Linear Regression Goal: 
 Predict the number of days required to close a request. 
-Results: - MAE: ~0.35 days - RMSE: ~0.54 days - R²: ~0.11 
+Results: 
+- MAE: ~0.35 days
+- RMSE: ~0.54 days
+- R²: ~0.11 
 ### Random Forest Classification 
 Goal: Predict whether a request will take longer than one day to resolve.
 Results: - Accuracy: ~93% - ROC-AUC: ~0.70  
@@ -39,13 +52,13 @@ Results: - Accuracy: ~93% - ROC-AUC: ~0.70
 ### Confusion Matrix ![Confusion Matrix](images/confusion_matrix.png) 
 ## Business Impact 
 This project demonstrates how predictive analytics and dashboard-driven insights can support: 
-Faster resource allocation 
-Improved operational planning 
-Better service delivery 
-Increased public trust 
+- Faster resource allocation 
+- Improved operational planning 
+- Better service delivery 
+- Increased public trust 
 ## Future Improvements -
-Analyze the complete NYC 311 dataset using Apache Spark 
-Incorporate weather and staffing data 
-Improve class imbalance handling 
-Deploy predictive models through a web dashboard 
+- Analyze the complete NYC 311 dataset using Apache Spark 
+- Incorporate weather and staffing data 
+- Improve class imbalance handling 
+- Deploy predictive models through a web dashboard 
 ## Author Vaibhavi Sukale
