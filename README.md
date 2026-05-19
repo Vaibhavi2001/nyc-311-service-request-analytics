@@ -44,7 +44,9 @@ Results:
 - R²: ~0.11 
 ### Random Forest Classification 
 Goal: Predict whether a request will take longer than one day to resolve.
-Results: - Accuracy: ~93% - ROC-AUC: ~0.70  
+Results:
+- Accuracy: ~93%
+- ROC-AUC: ~0.70  
 ## Visualizations
 ### Dashboard 1 ![Dashboard 1](images/dashboard1.png) 
 ### Dashboard 2 ![Dashboard 2](images/dashboard2.png) 
